@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/petAdoptionApp.iml" filepath="$PROJECT_DIR$/.idea/modules/petAdoptionApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/petAdoptionApp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/petAdoptionApp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/685171987/petAdoptionApp.react-native-firebase_app.iml" filepath="$PROJECT_DIR$/.idea/modules/685171987/petAdoptionApp.react-native-firebase_app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-981429578/petAdoptionApp.react-native-firebase_auth.iml" filepath="$PROJECT_DIR$/.idea/modules/-981429578/petAdoptionApp.react-native-firebase_auth.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-875556304/petAdoptionApp.react-native-gesture-handler.iml" filepath="$PROJECT_DIR$/.idea/modules/-875556304/petAdoptionApp.react-native-gesture-handler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-551686676/petAdoptionApp.react-native-reanimated.iml" filepath="$PROJECT_DIR$/.idea/modules/-551686676/petAdoptionApp.react-native-reanimated.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1055350425/petAdoptionApp.react-native-safe-area-context.iml" filepath="$PROJECT_DIR$/.idea/modules/1055350425/petAdoptionApp.react-native-safe-area-context.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/1368553969/petAdoptionApp.react-native-screens.iml" filepath="$PROJECT_DIR$/.idea/modules/1368553969/petAdoptionApp.react-native-screens.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-926723378/petAdoptionApp.react-native-svg.iml" filepath="$PROJECT_DIR$/.idea/modules/-926723378/petAdoptionApp.react-native-svg.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/802337702/petAdoptionApp.react-native-vector-icons.iml" filepath="$PROJECT_DIR$/.idea/modules/802337702/petAdoptionApp.react-native-vector-icons.iml" />
+    </modules>
+  </component>
+</project>

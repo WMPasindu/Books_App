@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "127837840331",
+    "project_id": "books-b0501",
+    "storage_bucket": "books-b0501.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:127837840331:android:15e3e9639ce9546da00c4e",
+        "android_client_info": {
+          "package_name": "com.petadoptionapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "127837840331-5q3b45kg3vjgvjrb6ui035cd7lbm5t63.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEeP_Dcuseh2r1FKn8A4UOg3cCUpqFjcE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "127837840331-5q3b45kg3vjgvjrb6ui035cd7lbm5t63.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

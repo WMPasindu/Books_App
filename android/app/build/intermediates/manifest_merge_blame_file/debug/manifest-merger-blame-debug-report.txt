@@ -1,0 +1,288 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.petadoptionapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:5:5-64
+12-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:6:5-80
+13-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:4:5-67
+14-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:4:22-64
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.75.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\ce1147b3e4e04fe87f556bced63a10fa\jetified-flipper-0.75.1\AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.75.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\ce1147b3e4e04fe87f556bced63a10fa\jetified-flipper-0.75.1\AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->[:react-native-firebase_auth] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-68
+16-->[:react-native-firebase_auth] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-65
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[:react-native-firebase_auth] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-79
+17-->[:react-native-firebase_auth] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\auth\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-76
+18
+19    <application
+19-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:8:5-26:19
+20        android:name="com.petadoptionapp.MainApplication"
+20-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:9:7-38
+21        android:allowBackup="false"
+21-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:13:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.3.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\47641c1038212c127f26e98ebaa64661\core-1.3.1\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:11:7-41
+25        android:label="@string/app_name"
+25-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:10:7-39
+26        android:roundIcon="@mipmap/ic_launcher_round"
+26-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:12:7-52
+27        android:theme="@style/AppTheme"
+27-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:14:7-38
+28        android:usesCleartextTraffic="true" >
+28-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\debug\AndroidManifest.xml:10:9-44
+29        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+29-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\debug\AndroidManifest.xml:13:9-86
+29-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\debug\AndroidManifest.xml:13:19-83
+30        <activity
+30-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:15:7-25:18
+31            android:name="com.petadoptionapp.MainActivity"
+31-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:16:9-37
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+32-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:18:9-86
+33            android:label="@string/app_name"
+33-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:17:9-41
+34            android:launchMode="singleTask"
+34-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:19:9-40
+35            android:windowSoftInputMode="adjustResize" >
+35-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:20:9-51
+36            <intent-filter>
+36-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:21:9-24:25
+37                <action android:name="android.intent.action.MAIN" />
+37-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:22:13-65
+37-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:22:21-62
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:23:13-73
+39-->D:\Assingment\final\PetAdoptionAppReactNative\android\app\src\main\AndroidManifest.xml:23:23-70
+40            </intent-filter>
+41        </activity>
+42
+43        <meta-data
+43-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:36
+44            android:name="app_data_collection_default_enabled"
+44-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-63
+45            android:value="true" />
+45-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-33
+46
+47        <service
+47-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-20:19
+48            android:name="com.google.firebase.components.ComponentDiscoveryService"
+48-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-89
+49            android:directBootAware="true"
+49-->[com.google.firebase:firebase-common:20.0.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+50            android:exported="false" >
+50-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:76:13-37
+51            <meta-data
+51-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:85
+52                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+52-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-120
+53                android:value="com.google.firebase.components.ComponentRegistrar" />
+53-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-82
+54            <meta-data
+54-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:77:13-79:85
+55                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+55-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:78:17-109
+56                android:value="com.google.firebase.components.ComponentRegistrar" />
+56-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:79:17-82
+57            <meta-data
+57-->[com.google.firebase:firebase-database:20.0.2] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\75ab27f10bb1e039406dd3d6c0facc20\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+58                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+58-->[com.google.firebase:firebase-database:20.0.2] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\75ab27f10bb1e039406dd3d6c0facc20\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+59                android:value="com.google.firebase.components.ComponentRegistrar" />
+59-->[com.google.firebase:firebase-database:20.0.2] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\75ab27f10bb1e039406dd3d6c0facc20\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+60        </service>
+61
+62        <provider
+62-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-26:38
+63            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+63-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-88
+64            android:authorities="com.petadoptionapp.reactnativefirebaseappinitprovider"
+64-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-86
+65            android:exported="false"
+65-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-37
+66            android:initOrder="99" />
+66-->[:react-native-firebase_app] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\@react-native-firebase\app\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-35
+67        <provider
+67-->[:react-native-image-picker] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-20:20
+68            android:name="com.imagepicker.ImagePickerProvider"
+68-->[:react-native-image-picker] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-63
+69            android:authorities="com.petadoptionapp.imagepickerprovider"
+69-->[:react-native-image-picker] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-71
+70            android:exported="false"
+70-->[:react-native-image-picker] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-37
+71            android:grantUriPermissions="true" >
+71-->[:react-native-image-picker] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-47
+72            <meta-data
+72-->[:react-native-image-picker] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-19:70
+73                android:name="android.support.FILE_PROVIDER_PATHS"
+73-->[:react-native-image-picker] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:17-67
+74                android:resource="@xml/imagepicker_provider_paths" />
+74-->[:react-native-image-picker] D:\Assingment\final\PetAdoptionAppReactNative\node_modules\react-native-image-picker\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:17-67
+75        </provider>
+76
+77        <activity
+77-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:27:9-44:20
+78            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+78-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:28:13-80
+79            android:excludeFromRecents="true"
+79-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:29:13-46
+80            android:exported="true"
+80-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:30:13-36
+81            android:launchMode="singleTask"
+81-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:31:13-44
+82            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+82-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:32:13-72
+83            <intent-filter>
+83-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:33:13-43:29
+84                <action android:name="android.intent.action.VIEW" />
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+84-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+85
+86                <category android:name="android.intent.category.DEFAULT" />
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+86-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+87                <category android:name="android.intent.category.BROWSABLE" />
+87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+87-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+88
+89                <data
+89-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+90                    android:host="firebase.auth"
+90-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+91                    android:path="/"
+91-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+92                    android:scheme="genericidp" />
+92-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+93            </intent-filter>
+94        </activity>
+95        <activity
+95-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:45:9-62:20
+96            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+96-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:46:13-79
+97            android:excludeFromRecents="true"
+97-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:47:13-46
+98            android:exported="true"
+98-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:48:13-36
+99            android:launchMode="singleTask"
+99-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:49:13-44
+100            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+100-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:50:13-72
+101            <intent-filter>
+101-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:51:13-61:29
+102                <action android:name="android.intent.action.VIEW" />
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:17-69
+102-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:34:25-66
+103
+104                <category android:name="android.intent.category.DEFAULT" />
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+104-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+105                <category android:name="android.intent.category.BROWSABLE" />
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:17-78
+105-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:37:27-75
+106
+107                <data
+107-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:39:17-42:51
+108                    android:host="firebase.auth"
+108-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:40:21-49
+109                    android:path="/"
+109-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:41:21-37
+110                    android:scheme="recaptcha" />
+110-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:42:21-48
+111            </intent-filter>
+112        </activity>
+113
+114        <service
+114-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:64:9-73:19
+115            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+115-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:65:13-101
+116            android:enabled="true"
+116-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:66:13-35
+117            android:exported="false" >
+117-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:67:13-37
+118            <intent-filter>
+118-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:68:13-72:29
+119                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:17-89
+119-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:69:25-86
+120
+121                <category android:name="android.intent.category.DEFAULT" />
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:17-76
+121-->[com.google.firebase:firebase-auth:21.0.1] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\10bd4f28f7af697f4e9bb5bbf61d7281\jetified-firebase-auth-21.0.1\AndroidManifest.xml:36:27-73
+122            </intent-filter>
+123        </service>
+124
+125        <activity
+125-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:23:9-27:75
+126            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+126-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:24:13-93
+127            android:excludeFromRecents="true"
+127-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:25:13-46
+128            android:exported="false"
+128-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:26:13-37
+129            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+129-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:27:13-72
+130        <!--
+131            Service handling Google Sign-In user revocation. For apps that do not integrate with
+132            Google Sign-In, this service will never be started.
+133        -->
+134        <service
+134-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:33:9-37:51
+135            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+135-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:34:13-89
+136            android:exported="true"
+136-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:35:13-36
+137            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+137-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:36:13-107
+138            android:visibleToInstantApps="true" />
+138-->[com.google.android.gms:play-services-auth:19.2.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\e592dcb5d78b81f339f88c9c32d0e5e6\jetified-play-services-auth-19.2.0\AndroidManifest.xml:37:13-48
+139
+140        <activity
+140-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\8ba120df78ef70b0b73857e5c07fa3e3\jetified-play-services-base-17.5.0\AndroidManifest.xml:23:9-26:75
+141            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+141-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\8ba120df78ef70b0b73857e5c07fa3e3\jetified-play-services-base-17.5.0\AndroidManifest.xml:24:13-79
+142            android:exported="false"
+142-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\8ba120df78ef70b0b73857e5c07fa3e3\jetified-play-services-base-17.5.0\AndroidManifest.xml:25:13-37
+143            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+143-->[com.google.android.gms:play-services-base:17.5.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\8ba120df78ef70b0b73857e5c07fa3e3\jetified-play-services-base-17.5.0\AndroidManifest.xml:26:13-72
+144
+145        <provider
+145-->[com.google.firebase:firebase-common:20.0.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+146            android:name="com.google.firebase.provider.FirebaseInitProvider"
+146-->[com.google.firebase:firebase-common:20.0.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+147            android:authorities="com.petadoptionapp.firebaseinitprovider"
+147-->[com.google.firebase:firebase-common:20.0.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+148            android:directBootAware="true"
+148-->[com.google.firebase:firebase-common:20.0.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+149            android:exported="false"
+149-->[com.google.firebase:firebase-common:20.0.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+150            android:initOrder="100" />
+150-->[com.google.firebase:firebase-common:20.0.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+151
+152        <meta-data
+152-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\0a06b30f5a999f7a20e7f2a44087cb71\jetified-play-services-basement-17.5.0\AndroidManifest.xml:23:9-25:69
+153            android:name="com.google.android.gms.version"
+153-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\0a06b30f5a999f7a20e7f2a44087cb71\jetified-play-services-basement-17.5.0\AndroidManifest.xml:24:13-58
+154            android:value="@integer/google_play_services_version" />
+154-->[com.google.android.gms:play-services-basement:17.5.0] C:\Users\PasinduWeerakoon\.gradle\caches\transforms-2\files-2.1\0a06b30f5a999f7a20e7f2a44087cb71\jetified-play-services-basement-17.5.0\AndroidManifest.xml:25:13-66
+155    </application>
+156
+157</manifest>
